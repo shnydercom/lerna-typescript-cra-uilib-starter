@@ -1,0 +1,30 @@
+{
+  "name": "@my-org/my-monorepo-ui-lib",
+  "version": "1.0.0",
+  "description": "a UI library for my monorepo",
+  "main": "index.js",
+  "author": "shnyder.com",
+  "license": "MIT",
+  "scripts": {
+    "story": "start-storybook"
+  },
+  "peerDependencies": {
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@storybook/react": "^5.2.5",
+    "@types/storybook__react": "^4.0.2",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-loader": "^8.0.6",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.0",
+    "source-map-loader": "^0.2.4",
+    "style-loader": "^1.0.0",
+    "typescript": "^3.6.4"
+  },
+  "dependencies": {
+    "babel-loader": "^8.0.6"
+  }
+}

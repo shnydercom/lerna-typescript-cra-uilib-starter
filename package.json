@@ -1,0 +1,20 @@
+{
+  "name": "lerna-typescript-cra-uilib-starter",
+  "version": "1.0.0",
+  "description": "Starter for Monorepos: Lerna, TypeScript, CRA and Storybook",
+  "main": "index.js",
+  "repository": "https://github.com/shnydercom/lerna-typescript-cra-uilib-starter.git",
+  "author": "shnyder.com",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^3.18.3"
+  },
+  "scripts": {
+    "story": "lerna run story --stream",
+    "start": "lerna run start --stream"
+  }
+}
