@@ -23,8 +23,5 @@
     "source-map-loader": "^0.2.4",
     "style-loader": "^1.0.0",
     "typescript": "^3.6.4"
-  },
-  "dependencies": {
-    "babel-loader": "^8.0.6"
   }
 }
