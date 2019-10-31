@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@my-org/my-monorepo-ui-lib": "^1.0.0",
+    "@my-org/my-monorepo-ui-lib": "*",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-scripts": "3.2.0"

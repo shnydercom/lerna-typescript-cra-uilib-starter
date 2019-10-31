@@ -3,6 +3,7 @@
 	"files": ["./typings.d.ts"],
 	"compilerOptions": {
 		"jsx": "react",
-		"esModuleInterop": true
+		"esModuleInterop": true,
+		"skipLibCheck": true
 	}
 }

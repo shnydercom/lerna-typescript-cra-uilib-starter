@@ -4,7 +4,7 @@ export interface MyNewComponentProps {
 	text: string;
 }
 
-const MyNewComponent = (props: MyNewComponentProps) => {
+export const MyNewComponent = (props: MyNewComponentProps) => {
 	return (<span>{props.text}</span>)
 }
 
