@@ -1,30 +1,30 @@
 {
-  "name": "@my-org/my-monorepo-ui-lib",
+  "name": "my-monorepo-ui-lib",
   "version": "1.0.0",
-  "description": "a UI library for my monorepo",
+  "description": "",
   "main": "./lib/index.js",
   "module": "./lib-esm/index.js",
   "types": "./lib/index.d.ts",
+  "scripts": {
+    "test": "test",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "libbuild": "tsc && tsc --build tsconfig.esm.json && yarn compcss",
+    "compcss": "yarn sass src/:lib/ && yarn sass src/:lib-esm/"
+  },
   "author": "shnyder.com",
   "license": "MIT",
-  "scripts": {
-    "story": "start-storybook",
-    "libbuild": "tsc && tsc --build tsconfig.esm.json"
-  },
-  "peerDependencies": {
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0"
-  },
   "devDependencies": {
-    "@babel/core": "^7.6.4",
-    "@storybook/react": "^5.2.5",
-    "@types/storybook__react": "^4.0.2",
-    "awesome-typescript-loader": "^5.2.1",
-    "babel-loader": "^8.0.6",
-    "node-sass": "^4.12.0",
-    "sass-loader": "^8.0.0",
-    "source-map-loader": "^0.2.4",
-    "style-loader": "^1.0.0",
-    "typescript": "^3.6.4"
+    "@storybook/addon-actions": "^6.1.17",
+    "@storybook/addon-essentials": "^6.1.17",
+    "@storybook/addon-links": "^6.1.17",
+    "@storybook/node-logger": "^6.1.17",
+    "@storybook/preset-create-react-app": "^3.1.5",
+    "@storybook/react": "^6.1.17",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.2",
+    "typescript": "^4.1.3",
+    "sass": "^1.32.6"
   }
 }

@@ -1,14 +1,15 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import {MyNewComponent} from '@my-org/my-monorepo-ui-lib';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import { HeaderFromUILib } from "./components/Header-from-UI-lib";
+import { ToggleButtonWithHook } from "./components/Toggle-button-with-hook";
 
 function App() {
   return (
     <div className="App">
+      <HeaderFromUILib />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <MyNewComponent text="this is our library component"/>
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
@@ -20,6 +21,7 @@ function App() {
         >
           Learn React
         </a>
+      <ToggleButtonWithHook/>
       </header>
     </div>
   );

@@ -2,8 +2,9 @@
 	"exclude": ["node_modules"],
 	"files": ["./typings.d.ts"],
 	"compilerOptions": {
-		"jsx": "react",
+		"jsx": "react-jsx",
 		"esModuleInterop": true,
-		"skipLibCheck": true
+		"skipLibCheck": true,
+		"noFallthroughCasesInSwitch": true,
 	}
 }

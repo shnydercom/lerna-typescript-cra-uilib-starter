@@ -67,3 +67,6 @@ lib
 lib-esm
 
 *.tsbuildinfo
+
+# v4 version upgrade additions:
+storybook-static
