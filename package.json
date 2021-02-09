@@ -14,7 +14,7 @@
     "lerna": "^3.22.1"
   },
   "scripts": {
-    "storybook": "lerna run storybook --stream",
+    "story": "lerna run storybook --stream",
     "prestart": "lerna run libbuild --stream",
     "start": "lerna run start --stream"
   }
