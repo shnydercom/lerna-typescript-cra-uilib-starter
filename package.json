@@ -15,7 +15,8 @@
   },
   "scripts": {
     "story": "lerna run storybook --stream",
-    "prestart": "lerna run libbuild --stream",
+    "libbuild": "lerna run libbuild --stream",
+    "prestart": "yarn libbuild",
     "start": "lerna run start --stream"
   }
 }
