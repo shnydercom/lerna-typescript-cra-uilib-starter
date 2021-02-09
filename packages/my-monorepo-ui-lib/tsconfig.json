@@ -17,8 +17,7 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "outDir": "lib",
-    "declaration": true,
-    "noEmit": true
+    "declaration": true
   },
   "exclude": [
     "node_modules",

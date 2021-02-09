@@ -9,8 +9,7 @@
     "test": "test",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "libbuild": "tsc && tsc --build tsconfig.esm.json",
-    "build": "yarn compcss && yarn libbuild",
+    "libbuild": "tsc && tsc --build tsconfig.esm.json && yarn compcss",
     "compcss": "yarn sass src/:lib/ && yarn sass src/:lib-esm/"
   },
   "author": "shnyder.com",
