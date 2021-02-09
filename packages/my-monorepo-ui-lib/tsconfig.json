@@ -1,11 +1,24 @@
 {
-  "exclude": ["node_modules", "lib-esm", "lib", "**/*.story*", "**/*.spec*"],
-  "include": [
-    "src"
-  ],
   "extends": "../../tsconfig.json",
   "compilerOptions": {
-    "outDir": "lib",
-    "declaration": true
-  }
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true
+  },
+  "include": [
+    "src"
+  ]
 }
