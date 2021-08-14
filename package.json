@@ -13,6 +13,9 @@
   "devDependencies": {
     "lerna": "^3.22.1"
   },
+  "resolutions": {
+    "babel-loader": "8.1.0"
+  },
   "scripts": {
     "story": "lerna run storybook --stream",
     "libbuild": "lerna run libbuild --stream",
